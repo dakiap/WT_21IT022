@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="../Calculator.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+</head>
+<body bgcolor="skyblue">
+    <h3>-----------Calculator using prompt-----------</h3>
+        <select id="Calc" onchange="calct()">
+            <option value="null">Select</option>
+            <option value="sum">Addition</option>
+            <option value="sub">Subtraction</option>
+            <option value="multi">Multiplication</option>
+            <option value="div">Division</option>
+        </select><br>
+    <div id="demo1"></div><br><br>
+
+
+    <h3>-----------Calculator using textbox-----------</h3>
+    <input type="text" id="val1" placeholder="1st number">&nbsp;&nbsp;<input type="text" id="val2" placeholder="2nd number"><br><br>
+    <button id="cal1" onclick="get(value)" value="sum">Addition</button>
+    <button id="cal1" onclick="get(value)" value="sub">Subtraction</button>
+    <button id="cal1" onclick="get(value)" value="multi">Multiplication</button>
+    <button id="cal1" onclick="get(value)" value="div">Division</button>
+    <div id="demo2"></div><br><br>
+
+
+    <h3>-----------Temperature conversion-----------</h3>
+    <input type="text" id="data1" placeholder="0"><button id="b1" onclick="temp()">Convert</button>
+    <h4 id="demo3"></h4>
+</body>
+</html>
