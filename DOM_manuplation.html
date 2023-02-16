@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM_manuplation</title>
+    <script src="../DOM_manuplation.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+</head>
+<body>
+    <h1>Creating a Dynamic List</h1>
+    <input type="text" id="inputitem">
+    <button onclick="eleadd()">ADD</button>
+    <ul id="iditemlist">
+
+    </ul>
+    <select id="idorg" onchange="list_display()">
+        <option value="org">Original</option>
+        <option value="sort">Sort</option>
+    </select>
+</body>
+</html>
