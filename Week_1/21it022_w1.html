@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <style>
+        #one{
+            text-align: center;
+        }
+        body{
+            background-image: url(pic2.png);
+            background-repeat: no-repeat;
+            background-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="one">
+        <h1>Registration Form</h1>
+    </div>
+    <div id="two">
+        <table align="center"; cellpadding="5%">
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input type="text" id="fname" name="fname" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td><label for="surname">Surname</label></td>
+                <td><input type="text" id="surname" name="surname" placeholder="Enter your surname"></td>
+            </tr>
+            <tr>
+                <td><label for="email">E-mail</label></td>
+                <td><input type="text" id="email" name="email" placeholder="Enter your mail id"></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Mobile No.</label></td>
+                <td><input type="text" id="mobile" name="mobile" placeholder="Enter your mobile number"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td>
+                    <input type="radio" id="Gender" name="1">Male
+                    <input type="radio" id="Gender" name="1">Female
+                    <input type="radio" id="Gender" name="1">Other
+                </td>
+            </tr>
+            <tr>
+                <td><label for="college">College</label></td>
+                <td>
+                    <select id="college">
+                        <option value="">select</option>
+                        <option value="cspit">CSPIT</option>
+                        <option value="depstar">DEPSTAR</option>
+                        <option value="i2im">I2IM</option>
+                        <option value="rpcp">RPCP</option>
+                        <option value="cmpica">CMPICA</option>
+                        <option value="pdpias">PDPIAS</option>
+                        <option value="arip">ARIP</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="branch">Branch</label></td>
+                <td><input type="text" id="branch"></td>
+            </tr>
+            <tr>
+                <td><label for="Cultevent">Cultural-Event</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="sptevent">Sport-Event</label></td>
+                <td>
+                    <input type="checkbox" id="1">Cricket
+                    <input type="checkbox" id="2">Football
+                    <input type="checkbox" id="3">Volleyball<br>
+                    <input type="checkbox" id="4">Basketball
+                    <input type="checkbox" id="5">Kabbadi
+                    <input type="checkbox" id="6">Thug-of-war<br>
+                    <input type="checkbox" id="7">Table-Tennis
+                    <input type="checkbox" id="8">Chess
+                    <input type="checkbox" id="9">Badminton
+                </td>
+            </tr>
+            <tr align="center">
+                <td><input type="submit"></td>
+                <td><input type="reset"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
