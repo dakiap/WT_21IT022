@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <script src="Prac_7.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  </head>
+
+  <body>
+    <h1>Login Form</h1>
+    <br /><br />
+
+    <form name="xyz" action="http://www.google.com/abc.php" method="post">
+      Name:
+      <input
+        type="text"
+        name="username"
+        id="id_username"
+        placeholder="Enter the name"
+      />
+      <span id="id_usernameErr"></span><br /><br />
+
+      Password:
+      <input
+        type="password"
+        name="passwd"
+        id="id_passwd"
+        placeholder="Enter the password"
+      />
+      <span id="id_passwdErr"></span><br /><br />
+
+      Sports:
+      <input type="checkbox" name="c1" id="id_c1">Cricket&nbsp;
+      <input type="checkbox" name="c2" id="id_c2">Football&nbsp;
+      <input type="checkbox" name="c3" id="id_c3">Kabaddi&nbsp;
+      <input type="checkbox" name="c4" id="id_c4">Volley-Ball&nbsp;
+      <input type="checkbox" name="c5" id="id_c5">Basket-Ball&nbsp;
+      <input type="checkbox" name="c6" id="id_c6">Base-ball&nbsp;
+      <span id="id_cErr"></span><br><br>
+
+      <input type="button" value="Login" onclick="doValidation();" />
+    </form>
+  </body>
+</html>
