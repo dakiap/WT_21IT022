@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>JavaScript Age Calculator</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+</head>
+
+<body>
+    <h2>Enter Your Birthdate to know your age</h2>
+    <div class="container">
+        <form>
+            <div class="base">
+                <div class="enter">
+                </div>
+                <div class="block">
+                    <p class="title">Date&nbsp;
+                    <input type="text" name="date" id="date" placeholder="dd" required="required" minlength="1" maxlength="2" /></p>
+                </div>
+                <div class="block">
+                    <p class="title">Month&nbsp;
+                    <input type="text" name="month" id="month" placeholder="mm" required="required" minlength="1" maxlength="2" /></p>
+                </div>
+                <div class="block">
+                    <p class="title">Year&nbsp;
+                    <input type="text" name="year" id="year" placeholder="yyyy" required="required" minlength="4" maxlength="4" /></p>
+                </div>
+            </div>
+            <br>
+            <div class="base">
+                <div class="enter">
+                    <input type="button" name="submit" value="Submit" onclick="age()" />
+                </div>
+            </div><br><br>
+            <div id="age"></div>
+        </form>
+    </div>
+    <script src="Age_calc.js"></script>
+    <body>
+<html>
